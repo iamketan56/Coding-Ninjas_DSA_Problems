@@ -3,7 +3,6 @@
 <h1>Array Problem</h1><br>
 Problem: https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/cha.PNG
 <br>
-<br>
 Solution: https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Chewbacca_number.cpp
 <br>
 <br>
