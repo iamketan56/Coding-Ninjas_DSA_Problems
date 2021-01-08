@@ -7,4 +7,7 @@ Solution: https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Arr
 <br>
 Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/ramu.PNG<br>
 Solution: https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Help_Ramu.cpp
+<br>
+Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/rain.PNG
+Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Rain_Harvest.cpp
 
