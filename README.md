@@ -3,11 +3,13 @@
 <h1>Array Problem</h1><br>
 Problem: https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/cha.PNG
 <br>
+<br>
 Solution: https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Chewbacca_number.cpp
+<br>
 <br>
 Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/ramu.PNG<br>
 Solution: https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Help_Ramu.cpp
-<br>
-Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/rain.PNG
+<br><br>
+Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/rain.PNG<br>
 Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Rain_Harvest.cpp
 
