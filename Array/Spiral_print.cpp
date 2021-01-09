@@ -48,20 +48,25 @@ void spiralprint(int a[][10], int R, int C)
         }
         endcol--;
 
-        for (int j = endcol; j >= startcol; j--)
+        if (endrow > startrow)
         {
-            cout << a[endrow][j] << " ";
+            for (int j = endcol; j >= startcol; j--)
+            {
+                cout << a[endrow][j] << " ";
+            }
+            endrow--;
         }
-        endrow--;
 
-        for (int j = endrow; j >= startrow; j--)
+        if (startcol < endcol)
         {
-            cout << a[j][startcol] << " ";
+            for (int j = endrow; j >= startrow; j--)
+            {
+                cout << a[j][startcol] << " ";
+            }
+            startcol++;
         }
-        startcol++;
     }
 }
-
 int main()
 {
     int a[10][10];
