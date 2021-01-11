@@ -1,4 +1,4 @@
-# Coding Ninjas_DSA_Problem
+# Coding Ninjas_AND_Coding_Blocks_DSA_Problem
  Understanding of DSA with Problem
 <h1>Array Problem</h1><br>
 Problem: https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/cha.PNG
