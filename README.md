@@ -11,4 +11,7 @@ Solution: https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Arr
 <br><br>
 Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/rain.PNG<br>
 Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Rain_Harvest.cpp
+<br><br>
+Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/rain.PNG<br>
+Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Rain_Harvest.cpp
 
