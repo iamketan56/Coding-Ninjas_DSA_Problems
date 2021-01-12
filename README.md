@@ -12,6 +12,7 @@ Solution: https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Arr
 Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/rain.PNG<br>
 Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Rain_Harvest.cpp
 <br><br>
-Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/rain.PNG<br>
+<h1>Sorting Problem</h1><br<
+Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/sanjay.PNG<br>
 Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Rain_Harvest.cpp
 
