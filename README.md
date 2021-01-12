@@ -14,5 +14,5 @@ Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Ar
 <br><br>
 <h1>Sorting Problem</h1><br<
 Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/sanjay.PNG<br>
-Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/Snajey_new_Job.cpp
+Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/Snajey_new_Job.cpp<br>
 
