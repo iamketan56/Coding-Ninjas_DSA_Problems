@@ -21,3 +21,6 @@ Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sor
 Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/read2.PNG<br>
 Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/Read_The_Book.cpp<br>
 
+<br><br>
+Problem :https://www.hackerrank.com/contests/launchpad-1-winter-challenge/challenges/binary-search-advanced
+Solution:
