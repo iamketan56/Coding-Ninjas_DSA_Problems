@@ -19,4 +19,5 @@ Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/So
 
 Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/read1.PNG<br>
 Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/read2.PNG<br>
+Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/Read_The_Book.cpp<br>
 
