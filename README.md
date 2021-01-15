@@ -22,5 +22,8 @@ Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sor
 Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/Read_The_Book.cpp<br>
 
 <br><br>
-Problem :https://www.hackerrank.com/contests/launchpad-1-winter-challenge/challenges/binary-search-advanced
+Problem :https://www.hackerrank.com/contests/launchpad-1-winter-challenge/challenges/binary-search-advanced <br>
+Solution:https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/Hacker.cpp
+<br><br>
+Problem: https://www.hackerrank.com/contests/launchpad-1-winter-challenge/challenges/binary-search-basic <br>
 Solution:
