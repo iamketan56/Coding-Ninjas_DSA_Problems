@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int firstoccurece(int *a, int s, int e, int key)
+int latstoccurece(int *a, int s, int e, int key)
 {
 
     int mid = (s + e) / 2;
@@ -30,5 +30,5 @@ int main()
     int key;
     cout << "Enter the number to find the Last occurence location" << endl;
     cin >> key;
-    cout << "Last Cccurence of " << key << " is " << firstoccurece(a, 0, 6, key);
+    cout << "Last Cccurence of " << key << " is " << lastoccurece(a, 0, 6, key);
 }
