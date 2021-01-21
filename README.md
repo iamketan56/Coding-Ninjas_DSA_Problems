@@ -26,4 +26,5 @@ Problem :https://www.hackerrank.com/contests/launchpad-1-winter-challenge/challe
 Solution:https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/Hacker.cpp
 <br><br>
 Problem: https://www.hackerrank.com/contests/launchpad-1-winter-challenge/challenges/binary-search-basic <br>
-Solution:
+Solution:https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/Hacker2.cpp
+
