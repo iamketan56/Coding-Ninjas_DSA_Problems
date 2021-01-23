@@ -59,6 +59,12 @@ public:
     {
         return this->num == F2.num && this->deno == F2.deno;
     }
+    //Pre inc
+    Fraction &operator++()
+    {
+        this->num = this->num + this->deno;
+        return *this;
+    }
     void print()
     {
         cout << this->num << "/" << this->deno << endl;
@@ -78,10 +84,13 @@ int main()
     F5.print();
     if (F1 == F2)
     {
-        cout << "Eqaul";
+        cout << "Eqaul" << endl;
     }
     else
     {
-        cout << "Not Equal";
+        cout << "Not Equal" << endl;
     }
+    Fraction F6 = ++(++F1);
+    F1.print();
+    F6.print();
 }
