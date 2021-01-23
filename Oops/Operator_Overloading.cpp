@@ -65,6 +65,27 @@ public:
         this->num = this->num + this->deno;
         return *this;
     }
+    //Post inc
+    Fraction operator++(int)
+    {
+        Fraction Fnew(this->num, this->deno);
+        this->num = this->num + this->deno;
+        simple();
+        Fnew.simple();
+        return Fnew;
+    }
+    Fraction &operator+=(Fraction const &F2)
+    {
+        int lcm = this->deno * F2.deno;
+        int x = lcm / this->deno;
+        int y = lcm / F2.deno;
+
+        int res = x * (this->num) + (y * F2.num);
+
+        this->num = res;
+        this->deno = lcm;
+        simple();
+    }
     void print()
     {
         cout << this->num << "/" << this->deno << endl;
@@ -93,4 +114,9 @@ int main()
     Fraction F6 = ++(++F1);
     F1.print();
     F6.print();
+    Fraction F7 = F1++;
+    F1.print();
+    F7.print();
+    F1 += F2;
+    F1.print();
 }
