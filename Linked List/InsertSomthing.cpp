@@ -49,15 +49,17 @@ void insert(Node *head, int data, int positon)
     Node *temp = head;
     Node *newnode = new Node(data);
     int pos = 0;
-    while (pos < positon - 1)
+    while (temp!= NULL && pos < positon - 1)
     {
         temp = temp->next;
         pos++;
     }
-
+	if(temp!=NULL)
+{
     Node *a = temp->next;
     temp->next = newnode;
     newnode->next = a;
+}
 }
 int main()
 {
