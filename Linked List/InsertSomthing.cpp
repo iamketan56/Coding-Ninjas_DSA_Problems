@@ -44,22 +44,28 @@ void print(Node *head)
         head = head->next;
     }
 }
-void insert(Node *head, int data, int positon)
+Node *insert(Node *head, int data, int positon)
 {
     Node *temp = head;
     Node *newnode = new Node(data);
     int pos = 0;
-    while (temp!= NULL && pos < positon - 1)
+    if (positon == 0)
+    {
+        newnode->next = head;
+        head = newnode;
+        return head;
+    }
+    while (temp != NULL && pos < positon - 1)
     {
         temp = temp->next;
         pos++;
     }
-	if(temp!=NULL)
-{
+
     Node *a = temp->next;
     temp->next = newnode;
     newnode->next = a;
-}
+
+    return head;
 }
 int main()
 {
@@ -69,6 +75,6 @@ int main()
     int position;
     cout << "Enter element and postion before where you want to insert" << endl;
     cin >> data >> position;
-    insert(head, data, position);
+    head = insert(head, data, position);
     print(head);
 }
