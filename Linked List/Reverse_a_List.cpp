@@ -13,6 +13,13 @@ public:
         this->next = NULL;
     }
 };
+class Pair
+{
+public:
+    Node *head;
+    Node *tail;
+};
+
 Node *takeinput()
 {
     int data;
@@ -44,6 +51,7 @@ void print(Node *head)
         head = head->next;
     }
 }
+// O(N^2) approch
 Node *reverselist(Node *head)
 {
     if (head == NULL || head->next == NULL)
@@ -61,11 +69,34 @@ Node *reverselist(Node *head)
 
     return small;
 }
+
+// O(N) approach
+Pair reverselist_2(Node *head)
+{
+    if (head == NULL || head->next == NULL)
+    {
+        Pair ans;
+        ans.head = head;
+        ans.tail = head;
+        return ans;
+    }
+    Pair smallans = reverselist_2(head->next);
+    smallans.tail->next = head;
+    head->next = NULL;
+    Pair ans;
+    ans.head = smallans.head;
+    ans.tail = head;
+    return ans;
+}
+Node *reverselistbetter(Node *head)
+{
+    return reverselist_2(head).head;
+}
 int main()
 {
     Node *head = takeinput();
     print(head);
     cout << "Reverse List : ";
-    head = reverselist(head);
+    head = reverselistbetter(head);
     print(head);
 }
