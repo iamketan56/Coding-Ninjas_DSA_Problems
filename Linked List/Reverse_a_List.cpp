@@ -92,11 +92,26 @@ Node *reverselistbetter(Node *head)
 {
     return reverselist_2(head).head;
 }
+//best approch
+Node *reverselist_3(Node *head)
+{
+    if (head == NULL || head->next == NULL)
+    {
+        return head;
+    }
+    Node *small = reverselist_3(head->next);
+    Node *tail = head->next;
+    tail->next = head;
+    head->next = NULL;
+
+    return small;
+}
+
 int main()
 {
     Node *head = takeinput();
     print(head);
     cout << "Reverse List : ";
-    head = reverselistbetter(head);
+    head = reverselist_3(head);
     print(head);
 }
