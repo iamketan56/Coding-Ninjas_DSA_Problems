@@ -44,13 +44,13 @@ void print(Node *head)
         head = head->next;
     }
 }
-Node *reverse(Node *head)
+Node *reverselist(Node *head)
 {
-    if (head == NULL && head->next == NULL)
+    if (head == NULL || head->next == NULL)
     {
         return head;
     }
-    Node *small = reverse(head->next);
+    Node *small = reverselist(head->next);
     Node *temp = small;
     while (temp->next != NULL)
     {
@@ -66,6 +66,6 @@ int main()
     Node *head = takeinput();
     print(head);
     cout << "Reverse List : ";
-    head = reverse(head);
+    head = reverselist(head);
     print(head);
 }
