@@ -32,10 +32,13 @@ void push(int data)
 }
 int pop()
 {
-    int ans = head->data;
-    head = head->next;
-    size--;
-    return ans;
+    if (!empty())
+    {
+        int ans = head->data;
+        head = head->next;
+        size--;
+        return ans;
+    }
 }
 bool empty()
 {
