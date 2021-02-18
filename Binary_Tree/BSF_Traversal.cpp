@@ -41,12 +41,23 @@ void BFS(Node *root)
 {
     queue<Node *> q;
     q.push(root);
+q.push(NULL);
     while (!q.empty())
     {
         Node *f = q.front();
+	if(f==NULL)
+	{
+	cout<<endl;
+	q.pop();
+	if(!q.empty())
+{
+q.push(NULL);
+}	
+}
+else {
         cout << f->data << " " << endl;
         q.pop();
-
+	
         if (f->left)
         {
             q.push(f->left);
@@ -56,6 +67,7 @@ void BFS(Node *root)
             q.push(f->right);
         }
     }
+}
     return;
 }
 int main()
