@@ -44,38 +44,6 @@ Node *Build()
     }
     return root;
 }
-// }
-// void BFS(Node *root)
-// {
-//     queue<Node *> q;
-//     q.push(root);
-//     while (!q.empty())
-//     {
-//         Node *f = q.front();
-//         cout << f->data << " ";
-//         q.pop();
-
-//         if (f->left)
-//         {
-//             q.push(f->left);
-//         }
-//         if (f->right)
-//         {
-//             q.push(f->right);
-//         }
-//     }
-//     return;
-// // }
-// void inorder(Node *root)
-// {
-//     if (root == NULL)
-//     {
-//         return;
-//     }
-//     inorder(root->left);
-//     cout << root->data << " ";
-//     inorder(root->right);
-// }
 bool searchinbst(Node *root, int data)
 {
     if (root == NULL)
