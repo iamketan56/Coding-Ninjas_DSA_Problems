@@ -13,7 +13,7 @@ Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Arr
 Solution : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/Rain_Harvest.cpp
 <br><br>
 Problem :https://www.hackerrank.com/contests/razzmatazz13practice/challenges/merge-arrays/problem<br>
-Solution:
+Solution:https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Array/HackerRank.cpp
 <br><br>
 <h1>Sorting Problem</h1><br>
 Problem : https://github.com/iamketan56/Coding-Ninjas_DSA_Problems/blob/main/Sorting%20and%20Searching/sanjay.PNG<br>
