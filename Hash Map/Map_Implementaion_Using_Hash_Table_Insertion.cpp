@@ -82,7 +82,7 @@ private:
         mapNode<T> *newNode = new mapNode(key, vlaue);
         newNode->next = head;
         bukets[index] = newNode;
-        count++;
+        counter++;
     }
 };
 
